@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://AuroraZiling.github.io</id>
+    <id>https://aurora.asu.world</id>
     <title>Aurora Blog</title>
-    <updated>2021-07-14T11:56:44.340Z</updated>
+    <updated>2021-07-14T11:59:04.192Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://AuroraZiling.github.io"/>
-    <link rel="self" href="https://AuroraZiling.github.io/atom.xml"/>
+    <link rel="alternate" href="https://aurora.asu.world"/>
+    <link rel="self" href="https://aurora.asu.world/atom.xml"/>
     <subtitle>How to thought, there is what kind of life.</subtitle>
-    <logo>https://AuroraZiling.github.io/images/avatar.png</logo>
-    <icon>https://AuroraZiling.github.io/favicon.ico</icon>
+    <logo>https://aurora.asu.world/images/avatar.png</logo>
+    <icon>https://aurora.asu.world/favicon.ico</icon>
     <rights>All rights reserved 2021, Aurora Blog</rights>
     <entry>
         <title type="html"><![CDATA[Codewars Day 1]]></title>
-        <id>https://AuroraZiling.github.io/post/codewars-day-1/</id>
-        <link href="https://AuroraZiling.github.io/post/codewars-day-1/">
+        <id>https://aurora.asu.world/post/codewars-day-1/</id>
+        <link href="https://aurora.asu.world/post/codewars-day-1/">
         </link>
         <updated>2021-07-11T11:02:59.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://AuroraZiling.github.io/post-images/1626004055597.png" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://aurora.asu.world/post-images/1626004055597.png" alt="" loading="lazy"></figure>
 <h2 id="信息">信息</h2>
 <ul>
 <li>题目名称: Multiply</li>
