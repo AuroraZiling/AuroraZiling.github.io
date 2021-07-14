@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://AuroraZiling.github.io</id>
     <title>Aurora Blog</title>
-    <updated>2021-07-14T12:05:46.381Z</updated>
+    <updated>2021-07-14T12:51:14.035Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://AuroraZiling.github.io"/>
     <link rel="self" href="https://AuroraZiling.github.io/atom.xml"/>
@@ -11,13 +11,95 @@
     <icon>https://AuroraZiling.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Aurora Blog</rights>
     <entry>
+        <title type="html"><![CDATA[Codewars Day 2]]></title>
+        <id>https://AuroraZiling.github.io/post/codewars-day-2/</id>
+        <link href="https://AuroraZiling.github.io/post/codewars-day-2/">
+        </link>
+        <updated>2021-07-14T12:13:40.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="信息">信息</h2>
+<ul>
+<li>题目名称: Count the divisors of a number</li>
+<li>题目难度: 7kyu</li>
+<li>题目标签: FUNDAMENTALS、ARITHMETIC、MATHEMATICS、ALGORITHMS、NUMBERS</li>
+<li>使用语言: Python</li>
+</ul>
+<h2 id="讲解">讲解</h2>
+<h3 id="暴力枚举第一阶段思路">暴力枚举第一阶段思路</h3>
+<p>已知一个正整数<code>n</code>，求其因子数。如<code>12</code>就有<code>1, 2, 3, 4, 6, 12</code>六个因子，故答案为<code>6</code></p>
+<p>第一眼能想到的解决方案是暴力：枚举1到n的所有数，依次取余判断是否能整除，如果可以计数器累加。<br>
+这个想法迅速实现，结果喜提2600ms的耗时。</p>
+<h3 id="暴力枚举第二阶段思路">暴力枚举第二阶段思路</h3>
+<p>后来根据小学知识我们能知道因子定义：<br>
+如果整数A除B，得出结果是没有余数的整数，就称B是A的因子。</p>
+<p>能知道，任意正整数的因子包含1和它本身，所以可以优化下循环的起始和终止条件 <s>优化不到哪去</s></p>
+<p>也就是从<code>1 ~ n+1</code>变为<code>2 ~ n</code>，再把计数器的初始值设为<code>2</code>。</p>
+<p>但如果就这么简单的写上去了，会有一个特殊情况——<code>1</code></p>
+<p>当<code>n=1</code>时，程序会跳过循环，然后输出<code>2</code>，但是很明显，<code>1</code>的因子只有1个，就是它本身。</p>
+<p>这时候就需要写一个特殊判断处理了，当<code>n=1</code>时，将计数器的数值设为1。</p>
+<p>我们再提交一下，情况改善，从原先的2600ms优化到2300ms <s>太拉了</s></p>
+<h3 id="枚举第三阶段思路">枚举第三阶段思路</h3>
+<p>肯定有很多人会问：才300ms，拉死了，换个语言写都能优化到这。</p>
+<p>这时候再分析下有没有什么特殊的突破口，能发现，正整数的因子除其本身外，都没有超过其一半。</p>
+<p>比如说数字<code>30</code>，其因子有<code>1, 2, 3, 5, 6, 10, 15, 30</code>，显而易见，当数超过其一半时，怎么可能被除尽。</p>
+<p>证明过程(反证):</p>
+<p>设存在有因数<code>x</code>是正整数<code>a</code>的一个因数，且<code>x</code>大于<code>a</code>的一半。<br>
+那么必然存在<code>x*b</code>=<code>a</code>，<code>b</code>也是<code>a</code>的因数。<br>
+若<code>b=1</code>，则<code>x=a</code>就是本身。<br>
+若<code>b≠1</code>,<code>b=a/x</code>，<code>b&lt;2</code>。<br>
+不存在大于1小于2的整数，但<code>b</code>又必须是个整数，使得<code>b</code>是<code>a</code>的因数，矛盾。<br>
+所以假设不成立。</p>
+<p>所以我们可以把循环的终止条件变成<code>n//2+1</code>，耗时成功达到1600ms</p>
+<h2 id="知识点">知识点</h2>
+<ol>
+<li><code>for</code>循环语句
+<ol>
+<li>定义一个函数的规则:
+<ol>
+<li>函数以 <code>def</code> 关键词<strong>开头</strong>，后接<code>函数标识符名称</code>和<code>()</code>。</li>
+<li><strong>所有</strong>传入参数必须放在<code>()</code>中，<code>()</code>之间可以用来<strong>定义参数</strong>。</li>
+<li>函数中的第一行语句可以<strong>选择性</strong>地用来存放函数说明。<em>这是个好习惯，但不是必须的</em></li>
+<li>函数内容以冒号 <code>:</code> 起始，并且缩进。 <em>是英文的冒号！</em></li>
+<li><code>return [表达式]</code> 负责结束函数，<strong>选择性</strong>地返回一个值给调用方。<em>不带表达式的 return 相当于返回 None。</em></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>因子</li>
+</ol>
+<h2 id="参考代码">参考代码</h2>
+<h3 id="第一阶段">第一阶段</h3>
+<pre><code class="language-Python">def divisors(n):
+    counter = 0
+    for i in range(1, n+1):
+        if n % i == 0:
+            counter += 1
+    return counter
+</code></pre>
+<h3 id="第二阶段">第二阶段</h3>
+<pre><code class="language-Python">def divisors(n):
+    counter = 2 if not n == 1 else 1
+    for i in range(2, n):
+        if n % i == 0:
+            counter += 1
+    return counter
+</code></pre>
+<h3 id="第三阶段">第三阶段</h3>
+<pre><code class="language-Python">def divisors(n):
+    counter = 2 if not n == 1 else 1
+    for i in range(2, n//2+1):
+        if n % i == 0:
+            counter += 1
+    return counter
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Codewars Day 1]]></title>
         <id>https://AuroraZiling.github.io/post/codewars-day-1/</id>
         <link href="https://AuroraZiling.github.io/post/codewars-day-1/">
         </link>
         <updated>2021-07-11T11:02:59.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://AuroraZiling.github.io/post-images/1626004055597.png" alt="" loading="lazy"></figure>
-<h2 id="信息">信息</h2>
+        <content type="html"><![CDATA[<h2 id="信息">信息</h2>
 <ul>
 <li>题目名称: Multiply</li>
 <li>题目难度: 8kyu</li>
