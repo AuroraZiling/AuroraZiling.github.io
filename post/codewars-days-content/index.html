@@ -8,7 +8,7 @@
 <meta name="keywords" content="gridea">
 <meta name="description" content="How to thought, there is what kind of life.">
 <meta name="theme-color" content="#748ffc">
-<title>Codewars Day 1 | Aurora Blog</title>
+<title>Codewars Days Content | Aurora Blog</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1626263577865">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/gemini.css">
@@ -29,8 +29,8 @@
 
 
 
-  <meta name="description" content="Codewars Day 1" />
-  <meta name="keywords" content="Python,Codewars" />
+  <meta name="description" content="Codewars Days Content" />
+  <meta name="keywords" content="Codewars" />
 </head>
 
 <body>
@@ -239,11 +239,14 @@
     <ul class="markdownIt-TOC">
 <li>
 <ul>
-<li><a href="#%E4%BF%A1%E6%81%AF">信息</a></li>
-<li><a href="#%E8%AE%B2%E8%A7%A3">讲解</a></li>
-<li><a href="#%E7%9F%A5%E8%AF%86%E7%82%B9">知识点</a></li>
-<li><a href="#%E5%8F%82%E8%80%83%E4%BB%A3%E7%A0%81">参考代码</a></li>
-<li><a href="#%E5%90%90%E6%A7%BD">吐槽</a></li>
+<li><a href="#1kyu">1kyu</a></li>
+<li><a href="#2kyu">2kyu</a></li>
+<li><a href="#3kyu">3kyu</a></li>
+<li><a href="#4kyu">4kyu</a></li>
+<li><a href="#5kyu">5kyu</a></li>
+<li><a href="#6kyu">6kyu</a></li>
+<li><a href="#7kyu">7kyu</a></li>
+<li><a href="#8kyu">8kyu</a></li>
 </ul>
 </li>
 </ul>
@@ -511,8 +514,8 @@
           <div class="section bg-color post post-page">
             <header class="post-header">
   <h1 class="post-title">
-    <a class="post-title-link" href="https://AuroraZiling.github.io/post/codewars-day-1/">
-      Codewars Day 1
+    <a class="post-title-link" href="https://AuroraZiling.github.io/post/codewars-days-content/">
+      Codewars Days Content
     </a>
   </h1>
   <div class="post-meta">
@@ -529,12 +532,6 @@
       <span class="pc-show">分类于</span>
       
       
-      <a href="https://AuroraZiling.github.io/tag/python/">
-        <span>Python</span>
-      </a>、
-      
-      
-      
       <a href="https://AuroraZiling.github.io/tag/codewars/">
         <span>Codewars</span>
       </a>
@@ -545,56 +542,26 @@
     
     <span class="meta-item">
       <i class="fa fa-clock-o"></i>
-      <span>2分钟</span>
+      <span>1分钟</span>
     </span>
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>318<span class="pc-show">字数</span></span>
+      <span>11<span class="pc-show">字数</span></span>
     </span>
     
   </div>
 </header>
             <div class="post-body next-md-body" id="post_body">
-              <figure data-type="image" tabindex="1"><img src="https://AuroraZiling.github.io/post-images/1626004055597.png" alt="" loading="lazy"></figure>
-<h2 id="信息">信息</h2>
-<ul>
-<li>题目名称: Multiply</li>
-<li>题目难度: 8kyu</li>
-<li>题目标签: BUGS</li>
-<li>使用语言: Python</li>
-</ul>
-<h2 id="讲解">讲解</h2>
-<p>真的没啥讲的，就是一道代码补全题，还是Codewars的入门测验题。</p>
-<pre><code class="language-Python">def multiply(a, b):
-  a * b
-</code></pre>
-<p>从这段代码能看出来，它的目的是输出<code>a</code>和<code>b</code>的积，而在函数中，如何让<code>a*b</code>的值返回呢？</p>
-<p>对，<code>return</code>关键词可以让我们的运算结果返回给调用方。</p>
-<p>所以这道题缺的就是<code>return</code>,没<code>return</code>返回个空气(<em>None，知识点部分会讲到</em>)啊。</p>
-<h2 id="知识点">知识点</h2>
-<ol>
-<li>函数的基本组成
-<ol>
-<li>定义一个函数的规则:
-<ol>
-<li>函数以 <code>def</code> 关键词<strong>开头</strong>，后接<code>函数标识符名称</code>和<code>()</code>。</li>
-<li><strong>所有</strong>传入参数必须放在<code>()</code>中，<code>()</code>之间可以用来<strong>定义参数</strong>。</li>
-<li>函数中的第一行语句可以<strong>选择性</strong>地用来存放函数说明。<em>这是个好习惯，但不是必须的</em></li>
-<li>函数内容以冒号 <code>:</code> 起始，并且缩进。 <em>是英文的冒号！</em></li>
-<li><code>return [表达式]</code> 负责结束函数，<strong>选择性</strong>地返回一个值给调用方。<em>不带表达式的 return 相当于返回 None。</em></li>
-</ol>
-</li>
-</ol>
-</li>
-<li><code>return</code>关键词</li>
-</ol>
-<h2 id="参考代码">参考代码</h2>
-<pre><code class="language-Python">def multiply(a, b):
-  return a * b
-</code></pre>
-<h2 id="吐槽">吐槽</h2>
-<p><s>这道题，真的需要专门写一篇教程吗</s></p>
+              <h2 id="1kyu">1kyu</h2>
+<h2 id="2kyu">2kyu</h2>
+<h2 id="3kyu">3kyu</h2>
+<h2 id="4kyu">4kyu</h2>
+<h2 id="5kyu">5kyu</h2>
+<h2 id="6kyu">6kyu</h2>
+<h2 id="7kyu">7kyu</h2>
+<h2 id="8kyu">8kyu</h2>
+<p><a href="codewars-day-1">Multiply - Day 1</a></p>
 
             </div>
             <div class="post-footer">
@@ -605,7 +572,7 @@
     </li>
     <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://AuroraZiling.github.io/post/codewars-day-1/" title="Codewars Day 1">https://AuroraZiling.github.io/post/codewars-day-1/</a>
+      <a href="https://AuroraZiling.github.io/post/codewars-days-content/" title="Codewars Days Content">https://AuroraZiling.github.io/post/codewars-days-content/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明： </strong>
@@ -613,8 +580,6 @@
     </li>
   </ul>
   <div class="tags">
-    
-      <a href="https://AuroraZiling.github.io/tag/python/"># Python</a>
     
       <a href="https://AuroraZiling.github.io/tag/codewars/"># Codewars</a>
     
