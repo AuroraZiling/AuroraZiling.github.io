@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://AuroraZiling.github.io</id>
     <title>Aurora Blog</title>
-    <updated>2021-07-14T12:59:23.584Z</updated>
+    <updated>2021-07-14T13:01:16.556Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://AuroraZiling.github.io"/>
     <link rel="self" href="https://AuroraZiling.github.io/atom.xml"/>
@@ -51,19 +51,7 @@
 <p>所以我们可以把循环的终止条件变成<code>n//2+1</code>，耗时成功达到1600ms</p>
 <h2 id="知识点">知识点</h2>
 <ol>
-<li><code>for</code>循环语句
-<ol>
-<li>定义一个函数的规则:
-<ol>
-<li>函数以 <code>def</code> 关键词<strong>开头</strong>，后接<code>函数标识符名称</code>和<code>()</code>。</li>
-<li><strong>所有</strong>传入参数必须放在<code>()</code>中，<code>()</code>之间可以用来<strong>定义参数</strong>。</li>
-<li>函数中的第一行语句可以<strong>选择性</strong>地用来存放函数说明。<em>这是个好习惯，但不是必须的</em></li>
-<li>函数内容以冒号 <code>:</code> 起始，并且缩进。 <em>是英文的冒号！</em></li>
-<li><code>return [表达式]</code> 负责结束函数，<strong>选择性</strong>地返回一个值给调用方。<em>不带表达式的 return 相当于返回 None。</em></li>
-</ol>
-</li>
-</ol>
-</li>
+<li><code>for</code>循环语句</li>
 <li>因子</li>
 </ol>
 <h2 id="参考代码">参考代码</h2>
