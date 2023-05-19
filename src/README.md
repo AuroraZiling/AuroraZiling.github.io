@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: Home
+title: 主页
 heroImage: /rounded_logo.webp
 heroText: The Imaginary
 tagline: Sangonomiya 和 Asta 的文档
