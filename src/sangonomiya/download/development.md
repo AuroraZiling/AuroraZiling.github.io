@@ -1,5 +1,7 @@
 ---
 title: 开发版
+category:
+  - Sangonomiya
 ---
 
 **不建议下载开发版，因为没做过任何稳定性测验**

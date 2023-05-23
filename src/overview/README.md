@@ -11,6 +11,7 @@ star: true
 ## 目录
 
 - [目标](goals.md)
+- [Bug](bug.md)
 
 ## 相关项目文档
 

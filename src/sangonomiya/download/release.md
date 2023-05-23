@@ -1,5 +1,7 @@
 ---
 title: 正式版
+category:
+  - Sangonomiya
 ---
 
 **通常情况下，推荐下载正式版**

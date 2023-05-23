@@ -1,5 +1,7 @@
 ---
 title: 历史版本
+category:
+  - Sangonomiya
 ---
 
 ### 2023.5.13 Release 7 Published

@@ -1,6 +1,5 @@
 ---
 title: 目标
-icon: discover
 category:
   - Overview
 ---

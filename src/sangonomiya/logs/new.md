@@ -1,5 +1,7 @@
 ---
 title: 新版
+category:
+  - Sangonomiya
 ---
 
 ### 8.0.7
