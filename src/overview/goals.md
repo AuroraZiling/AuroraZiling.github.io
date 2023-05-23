@@ -36,7 +36,7 @@ category:
 ### 特性
 
 - [x] 图表显示
-- [x] UIGF(Json) 支持
+- [x] SRGF(Json) 支持
 - [x] 基础的数据分析
 - [x] 游戏内公告显示
 - [x] 当期UP显示

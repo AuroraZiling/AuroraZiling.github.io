@@ -18,4 +18,9 @@ export const zhNavbar = navbar([
     icon: "note",
     link: "/about/",
   },
+  {
+    text: "UIGF",
+    icon: "note",
+    link: "/uigf/"
+  },
 ]);
