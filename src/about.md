@@ -18,16 +18,17 @@ License: [GNU General Public License v3.0](https://github.com/AuroraZiling/sango
 2. [PySide6](https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)) **LGPL**
 3. [PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) **GPL-3.0**
 
-#### C Sharp
+#### .NET
 
 1. [Titanium.Web.Proxy](https://github.com/justcoding121/Titanium-Web-Proxy) **MIT License**
 
 ## 参考的 Github Repo
 
-1. [sunfkny/CaptureApp](https://github.com/sunfkny/CaptureApp) **有关GenshinProxyServer插件**
+1. [CaptureApp](https://github.com/sunfkny/CaptureApp) **有关GenshinProxyServer插件**
 2. [UIGF-org](https://uigf.org/standards/UIGF.html) **有关UIGF标准**
 3. [PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) **有关UI设计**
 4. [Hoyo-Glyphs](https://github.com/SpeedyOrc-C/Hoyo-Glyphs) **有关小工具：架空文字**
+5. [StarRail-gacha](https://github.com/DancingSnow0517/StarRail-gacha) **代码重构思路**
 
 ## 灵感
 
