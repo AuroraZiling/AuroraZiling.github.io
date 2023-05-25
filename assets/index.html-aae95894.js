@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as s,a as e}from"./app-fe6e4aa1.js";const c={},n=e("p",null,[e("a",{href:"asta/logs/history"},"日志")],-1),r=[n];function _(a,l){return o(),s("div",null,r)}const f=t(c,[["render",_],["__file","index.html.vue"]]);export{f as default};
