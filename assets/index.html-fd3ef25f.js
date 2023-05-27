@@ -1,1 +1,0 @@
-import{_ as o}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as a,a as e}from"./app-fe6e4aa1.js";const n={},s=e("p",null,[e("a",{href:"asta/download/release"},"正式版")],-1),c=[s];function r(_,l){return t(),a("div",null,c)}const f=o(n,[["render",r],["__file","index.html.vue"]]);export{f as default};
