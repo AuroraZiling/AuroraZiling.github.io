@@ -3,7 +3,7 @@ name: Pages
 on:
   push:
     branches:
-      - main
+      - gh-pages
 
 jobs:
   build:
@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '20'
       - name: Cache NPM dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v2
         with:
           path: node_modules
           key: ${{ runner.OS }}-npm-cache
@@ -29,7 +29,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
-        uses: actions/artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
   deploy:
@@ -44,4 +44,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v2
