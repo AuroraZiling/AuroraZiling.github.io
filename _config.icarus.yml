@@ -106,6 +106,7 @@ navbar:
     # Navigation menu items
     menu:
         Home: /
+        Full Stack: /full-stack-learning
         Archives: /archives
         Categories: /categories
         Tags: /tags
@@ -118,7 +119,7 @@ navbar:
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2024 Mccree Lee
+    copyright: ''
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -208,9 +209,6 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: https://github.com/auroraziling
-            RSS:
-                icon: fas fa-rss
-                url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -267,7 +265,7 @@ plugins:
         tracking_id: 
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: true
+    busuanzi: false
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
