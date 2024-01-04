@@ -104,3 +104,8 @@ deploy:
   type: git
   repo: https://github.com/AuroraZiling/AuroraZiling.github.io.git
   branch: gh-pages
+
+# Markmap
+hexo_markmap:
+  prism: true
+  lockView: true
