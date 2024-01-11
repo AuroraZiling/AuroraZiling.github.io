@@ -16,6 +16,9 @@ title: 全栈学习
 
 ### 有关 .Net 的六个重要概念
 
+[文章地址](../full-stack-learning/six-important-concepts/)
+[原文地址](https://www.codeproject.com/Articles/76153/Six-important-NET-concepts-Stack-heap-value-types)
+
 ### 数据结构 / Data Structure
 
 #### 线性表 / Linear List
@@ -44,5 +47,5 @@ title: 全栈学习
 现代的高级语言中，通常都会提供列表的实现，比如`C#`中的`List<T>`，`Java`中的`ArrayList`等。
 
 - [数组](../full-stack-learning/data-structure/array-list/)
-- 链表 *施工中*
+- [链表](../full-stack-learning/data-structure/linked-list/) *施工中*
 - 列表 *施工中*
