@@ -1,6 +1,7 @@
 ---
 title: .Net 的六个重要概念
 permalink: full-stack-learning/six-important-concepts/
+toc: true
 categories:
   - .Net Full Stack
 tags:

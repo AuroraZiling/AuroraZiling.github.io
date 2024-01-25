@@ -4,16 +4,15 @@ title: 关于 / About
 
 ## 简介
 
-我是`Mccree Lee`，高中生，INTJ
+我是`Mccree Lee`，高中生，INTJ，民主社会主义者（至少现在是）
 
 Github: [AuroraZiling](https://github.com/AuroraZiling)
 
-## 编程语言
+## 主力编程语言
 
 - Python **主要使用**
 - C# **主要使用**
 - Java **考试要求**
-- C/C++ **几乎不用**
 
 ## 技术栈
 
@@ -25,7 +24,7 @@ Github: [AuroraZiling](https://github.com/AuroraZiling)
 
 - Python
     - PyQt6
-    - FastAPI **学习中**
+    - FastAPI **计划中**
 
 ## 联系
 

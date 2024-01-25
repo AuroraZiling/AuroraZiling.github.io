@@ -1,10 +1,10 @@
 ---
 title: {{ title }}
 date: {{ date }}
-permalink: full-stack-learning/
+permalink: philosophy/
 toc: true
 categories:
-    - [.Net Full Stack]
+    - [Philosophy]
 tags:
     - 
 ---
